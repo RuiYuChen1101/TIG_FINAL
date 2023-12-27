@@ -1,0 +1,12 @@
+PRÁCTICA 5 --> FALTA EXPORTAR CAPA DE SEVERIDAD.TIF 
+	   --> Severidad.tif o Severidad.png
+
+PRÁCTICA 4 -> Capa Zonas Validas.shp
+
+PRÁCTICA 8 -> hecho 
+
+Práctica 9 -> Falta pasar plugins tiff 
+
+Práctica 10 -> No se sabe donde acaba lo del drive 
+
+
