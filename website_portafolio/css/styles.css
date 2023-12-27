@@ -91,6 +91,11 @@
   }
 }
 
+#tabla_datos{
+  justify-content: center;
+  margin-left: -15%;
+  
+}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -408,6 +413,7 @@ fieldset {
   margin: 0;
   border: 0;
 }
+
 
 legend {
   float: left;
@@ -10836,6 +10842,7 @@ body {
 p {
   line-height: 1.75;
 }
+
 
 .page-section {
   padding: 6rem 0;
