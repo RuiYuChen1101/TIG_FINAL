@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_df68552d00d23accb758b519b5b2cbe5 {
+                #map_ff372a44e10c110cc90906dcf803f5cb {
                     position: absolute;
                     width: 50.0%;
                     height: 100.0%;
@@ -39,7 +39,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_2345a27cf838909b10ae6b20d0537e57 {
+                #map_4881ecb69ee37cccef0f5d9f23c4de50 {
                     position: absolute;
                     width: 50.0%;
                     height: 100.0%;
@@ -54,17 +54,17 @@
 <body>
     
     
-            <div class="folium-map" id="map_df68552d00d23accb758b519b5b2cbe5" ></div>
+            <div class="folium-map" id="map_ff372a44e10c110cc90906dcf803f5cb" ></div>
         
     
-            <div class="folium-map" id="map_2345a27cf838909b10ae6b20d0537e57" ></div>
+            <div class="folium-map" id="map_4881ecb69ee37cccef0f5d9f23c4de50" ></div>
         
 </body>
 <script>
     
     
-            var map_df68552d00d23accb758b519b5b2cbe5 = L.map(
-                "map_df68552d00d23accb758b519b5b2cbe5",
+            var map_ff372a44e10c110cc90906dcf803f5cb = L.map(
+                "map_ff372a44e10c110cc90906dcf803f5cb",
                 {
                     center: [39.0, -0.3],
                     crs: L.CRS.EPSG3857,
@@ -78,40 +78,40 @@
 
         
     
-            var tile_layer_c32262391a7fe76435e82af32715f715 = L.tileLayer(
+            var tile_layer_0ff3b3caec69944fa8d264d36e03da46 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-                tile_layer_c32262391a7fe76435e82af32715f715.addTo(map_df68552d00d23accb758b519b5b2cbe5);
+                tile_layer_0ff3b3caec69944fa8d264d36e03da46.addTo(map_ff372a44e10c110cc90906dcf803f5cb);
     
-            var tile_layer_0c8941cfcd0066333db3d9158e93845b = L.tileLayer(
-                "https://earthengine.googleapis.com/v1/projects/earthengine-legacy/maps/81e1dae98b18266a09fb8e59d7f7bc22-1ef50467a432c5a04b3adba5b78c90d4/tiles/{z}/{x}/{y}",
+            var tile_layer_88ec6c2e67d06f9810c2944916979cf2 = L.tileLayer(
+                "https://earthengine.googleapis.com/v1/projects/earthengine-legacy/maps/301c1f7f88e90ed7862435b5f138baf8-d653792535bb8a6a1ebb4c23d13ff8be/tiles/{z}/{x}/{y}",
                 {"attribution": "Jiang Chenyi \u0026 Chen Ruiyu", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-                tile_layer_0c8941cfcd0066333db3d9158e93845b.addTo(map_df68552d00d23accb758b519b5b2cbe5);
+                tile_layer_88ec6c2e67d06f9810c2944916979cf2.addTo(map_ff372a44e10c110cc90906dcf803f5cb);
     
-            var layer_control_1d1c0d97d8a5fb4003bbf41c31123bfd_layers = {
+            var layer_control_63e069f9f5f8ea509b20f3e483987199_layers = {
                 base_layers : {
-                    "openstreetmap" : tile_layer_c32262391a7fe76435e82af32715f715,
+                    "openstreetmap" : tile_layer_0ff3b3caec69944fa8d264d36e03da46,
                 },
                 overlays :  {
-                    "NBR_pre" : tile_layer_0c8941cfcd0066333db3d9158e93845b,
+                    "NBR_pre" : tile_layer_88ec6c2e67d06f9810c2944916979cf2,
                 },
             };
-            let layer_control_1d1c0d97d8a5fb4003bbf41c31123bfd = L.control.layers(
-                layer_control_1d1c0d97d8a5fb4003bbf41c31123bfd_layers.base_layers,
-                layer_control_1d1c0d97d8a5fb4003bbf41c31123bfd_layers.overlays,
+            let layer_control_63e069f9f5f8ea509b20f3e483987199 = L.control.layers(
+                layer_control_63e069f9f5f8ea509b20f3e483987199_layers.base_layers,
+                layer_control_63e069f9f5f8ea509b20f3e483987199_layers.overlays,
                 {"autoZIndex": true, "collapsed": true, "position": "topright"}
-            ).addTo(map_df68552d00d23accb758b519b5b2cbe5);
+            ).addTo(map_ff372a44e10c110cc90906dcf803f5cb);
 
         
     
-            var map_2345a27cf838909b10ae6b20d0537e57 = L.map(
-                "map_2345a27cf838909b10ae6b20d0537e57",
+            var map_4881ecb69ee37cccef0f5d9f23c4de50 = L.map(
+                "map_4881ecb69ee37cccef0f5d9f23c4de50",
                 {
                     center: [39.0, -0.3],
                     crs: L.CRS.EPSG3857,
@@ -125,39 +125,39 @@
 
         
     
-            var tile_layer_ea092d0b5ea52d70b391854e6c765f22 = L.tileLayer(
+            var tile_layer_bbbc9af59c43750b9829803e0f326d43 = L.tileLayer(
                 "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca target=\"_blank\" href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca target=\"_blank\" href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-                tile_layer_ea092d0b5ea52d70b391854e6c765f22.addTo(map_2345a27cf838909b10ae6b20d0537e57);
+                tile_layer_bbbc9af59c43750b9829803e0f326d43.addTo(map_4881ecb69ee37cccef0f5d9f23c4de50);
     
-            var tile_layer_21cb460806637686dd708ee96c6c2498 = L.tileLayer(
-                "https://earthengine.googleapis.com/v1/projects/earthengine-legacy/maps/f9367e7e0c68ffc2567bdf7adb65128c-951af2b70f70e0465119c2b0cbe114fc/tiles/{z}/{x}/{y}",
+            var tile_layer_c2a1fa658645dcd12018a3ffbe7e25dc = L.tileLayer(
+                "https://earthengine.googleapis.com/v1/projects/earthengine-legacy/maps/302bdf5ec466121bc95a1f7511173375-4335a4312abe89271c6a2e34d056a4ad/tiles/{z}/{x}/{y}",
                 {"attribution": "Jiang Chenyi \u0026 Chen Ruiyu", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-                tile_layer_21cb460806637686dd708ee96c6c2498.addTo(map_2345a27cf838909b10ae6b20d0537e57);
+                tile_layer_c2a1fa658645dcd12018a3ffbe7e25dc.addTo(map_4881ecb69ee37cccef0f5d9f23c4de50);
     
-            map_df68552d00d23accb758b519b5b2cbe5.sync(map_2345a27cf838909b10ae6b20d0537e57);
-            map_2345a27cf838909b10ae6b20d0537e57.sync(map_df68552d00d23accb758b519b5b2cbe5);
+            map_ff372a44e10c110cc90906dcf803f5cb.sync(map_4881ecb69ee37cccef0f5d9f23c4de50);
+            map_4881ecb69ee37cccef0f5d9f23c4de50.sync(map_ff372a44e10c110cc90906dcf803f5cb);
         
     
-            var layer_control_597c8b0615254e8aadd524276bd118d4_layers = {
+            var layer_control_a698929d146449ce978e4d16bcbd6da7_layers = {
                 base_layers : {
-                    "cartodbpositron" : tile_layer_ea092d0b5ea52d70b391854e6c765f22,
+                    "cartodbpositron" : tile_layer_bbbc9af59c43750b9829803e0f326d43,
                 },
                 overlays :  {
-                    "NBR_post" : tile_layer_21cb460806637686dd708ee96c6c2498,
+                    "NBR_post" : tile_layer_c2a1fa658645dcd12018a3ffbe7e25dc,
                 },
             };
-            let layer_control_597c8b0615254e8aadd524276bd118d4 = L.control.layers(
-                layer_control_597c8b0615254e8aadd524276bd118d4_layers.base_layers,
-                layer_control_597c8b0615254e8aadd524276bd118d4_layers.overlays,
+            let layer_control_a698929d146449ce978e4d16bcbd6da7 = L.control.layers(
+                layer_control_a698929d146449ce978e4d16bcbd6da7_layers.base_layers,
+                layer_control_a698929d146449ce978e4d16bcbd6da7_layers.overlays,
                 {"autoZIndex": true, "collapsed": true, "position": "topright"}
-            ).addTo(map_2345a27cf838909b10ae6b20d0537e57);
+            ).addTo(map_4881ecb69ee37cccef0f5d9f23c4de50);
 
         
 </script>
